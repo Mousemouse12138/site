@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="layoutcss.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <div class="layout">
     <header class="site-header">
     <a href="../index.html" id="logo">
@@ -41,7 +42,7 @@
       </ul>
     </nav>
 
-    <main class="page-main">
+    <main class="page-main" id="main-content">
       <div class="content-grid">
         
         <article class="main-article">
@@ -111,35 +112,54 @@
           </section>
         </article>
 
-        <aside class="sidebar" aria-label="Overview sidebar">
-          <h3>Other Gallery of <cite>Vertigo<cite></h3>
-          <section aria-labelledby="section-1">
-            
-            <img src="images/filmstill1.jpg" alt="Film still">
-          <p class="section-muted">
-            Scottie and Madeleine.
-          </p>
-          
-           <img src="images/filmstill2.jpg" alt="Film still">
-          <p class="section-muted">
-            Judy's profile.
-          </p>
-          
-          <img src="images/filmstill3.jpg" alt="Film still">
-          <p class="section-muted">
-            Scottie's memory of almost falling from a rooftop.
-            
-            <img src="images/filmstill4.jpg" alt="Film still">
-          <p class="section-muted">
-            Madeleine kisses Scottie.
-            
-            <img src="images/filmstill5.jpg" alt="Film still">
-          <p class="section-muted">
-            Scottie is at his friend's home.
-          </p>
-          </section>
-          
-        </aside>      
+        <aside class="sidebar" aria-label="Vertigo gallery">
+  <h3>Other Gallery of <cite>Vertigo</cite></h3>
+
+  <figure class="a11y-figure">
+    <img
+      src="images/filmstill1.jpg"
+      alt="Scottie and Madeleine at the bay"
+      aria-describedby="cap-fs1"
+      tabindex="0">
+    <figcaption id="cap-fs1" class="section-muted">Scottie and Madeleine.</figcaption>
+  </figure>
+
+  <figure class="a11y-figure">
+    <img
+      src="images/filmstill2.jpg"
+      alt="Judy's profile under soft light"
+      aria-describedby="cap-fs2"
+      tabindex="0">
+    <figcaption id="cap-fs2" class="section-muted">Judy's profile.</figcaption>
+  </figure>
+
+  <figure class="a11y-figure">
+    <img
+      src="images/filmstill3.jpg"
+      alt="Scottie almost falls from a rooftop in his memory"
+      aria-describedby="cap-fs3"
+      tabindex="0">
+    <figcaption id="cap-fs3" class="section-muted">Scottie's memory of almost falling from a rooftop.</figcaption>
+  </figure>
+
+  <figure class="a11y-figure">
+    <img
+      src="images/filmstill4.jpg"
+      alt="Madeleine kisses Scottie"
+      aria-describedby="cap-fs4"
+      tabindex="0">
+    <figcaption id="cap-fs4" class="section-muted">Madeleine kisses Scottie.</figcaption>
+  </figure>
+
+  <figure class="a11y-figure">
+    <img
+      src="images/filmstill5.jpg"
+      alt="Scottie is at his friend's home"
+      aria-describedby="cap-fs5"
+      tabindex="0">
+    <figcaption id="cap-fs5" class="section-muted">Scottie is at his friend's home.</figcaption>
+  </figure>
+</aside>      
         </div>
     </main>
 
